@@ -1,0 +1,8 @@
+
+---
+- name: Test Connection to Linux
+  hosts: tag_Environment_Dev
+  become: yes
+#----------------------------------------
+  tasks:
+  - ping:

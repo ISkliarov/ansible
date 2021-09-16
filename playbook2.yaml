@@ -1,0 +1,10 @@
+---
+- name: Install default htop program
+  hosts: web
+  become: yes
+
+  tasks:
+  - name: Install htop
+    yum: name=htop state=latest
+
+

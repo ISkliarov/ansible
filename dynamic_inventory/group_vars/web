@@ -1,0 +1,2 @@
+---
+ansible_private_key_file : /home/sskliarov/.ssh/id_rsa.pem
