@@ -1,0 +1,17 @@
+[group_dev:children]
+devWeb
+devJenkins
+devNode1
+
+[group_jenkins:children]
+devJenkins
+devNode1
+
+[devWeb]
+web ansible_host=3.249.217.251
+
+[devJenkins]
+jenkins ansible_host=54.73.138.182
+
+[devNode1]
+node1 ansible_host=3.250.157.213
